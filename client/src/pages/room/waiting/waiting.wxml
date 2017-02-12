@@ -1,0 +1,25 @@
+<view class="container">
+    <text>
+    您的邀请码为：
+    </text>
+    <text class='code'>
+        3291
+    </text>
+
+    <view class="avatar-container">
+        <image class="avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <image class="avatar" src="/resources/images/empty-avatar.jpg" background-size="cover"></image>
+        <image class="avatar" src="/resources/images/empty-avatar.jpg" background-size="cover"></image>
+        <image class="avatar" src="/resources/images/empty-avatar.jpg" background-size="cover"></image>
+        <image class="avatar" src="/resources/images/empty-avatar.jpg" background-size="cover"></image>
+        <image class="avatar" src="/resources/images/empty-avatar.jpg" background-size="cover"></image>
+        <image class="avatar" src="/resources/images/empty-avatar.jpg" background-size="cover"></image>
+        <image class="avatar" src="/resources/images/empty-avatar.jpg" background-size="cover"></image>
+    </view>
+    <button
+        type="default" 
+        bindtap="bindStartTap"
+        class="join-btn">
+    等待其他人加入
+    </button>
+</view>

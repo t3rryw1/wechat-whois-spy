@@ -1,0 +1,22 @@
+/* pages/index/join.wxss */
+.section{
+  margin-top: 100px;
+  color: #aaa;  
+  align-items: center;
+
+}
+
+.section input{
+    text-align: center;
+    font-size: 1.5em;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 0.5em;
+    border:1px solid #aaa;
+}
+
+
+.join-btn{
+    margin-top: 80px;
+    width: 73%;
+}

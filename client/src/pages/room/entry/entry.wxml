@@ -1,0 +1,13 @@
+<!--entry.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <text class="welcome">欢迎来到小萝卜的卧底小游戏</text>
+
+  <view class="main-content">
+    <button type="primary" bindtap="bindNewTap">创建游戏</button>
+    <button type="primary" bindtap="bindJoinTap">加入游戏</button>
+  </view>
+</view>

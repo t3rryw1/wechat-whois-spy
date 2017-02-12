@@ -1,0 +1,11 @@
+<view class="container">
+    <text>
+    请输入您的邀请码：
+    </text>
+    <view class="section">
+        <input type="number" placeholder="邀请码" auto-focus/>
+    </view>
+    <button type="primary" bindtap="bindJoinTap" class="join-btn">
+    加入游戏
+    </button>
+</view>

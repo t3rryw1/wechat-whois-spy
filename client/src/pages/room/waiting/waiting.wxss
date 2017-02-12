@@ -1,0 +1,46 @@
+/* pages/index/join.wxss */
+.section{
+  margin-top: 100px;
+  color: #aaa;  
+  align-items: center;
+
+}
+
+.avatar-container{
+    margin-top: 30px;
+    width: 90%;
+    align-items: center;
+    align-content: center;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+image.avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+text.code{
+    color: #aaa;  
+    height: 40px;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.section input{
+    text-align: center;
+    font-size: 1.5em;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 0.5em;
+    border:1px solid #aaa;
+}
+
+
+.join-btn{
+    margin-top: 80px;
+    width: 73%;
+}

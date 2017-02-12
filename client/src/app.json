@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/room/entry/entry",
+    "pages/room/new/new",
+    "pages/room/join/join",
+    "pages/room/waiting/waiting",
+    "pages/game/board/board"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "谁是卧底",
+    "navigationBarTextStyle":"black"
+  }
+}

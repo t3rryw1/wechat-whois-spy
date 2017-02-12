@@ -1,0 +1,19 @@
+<view class="container">
+    <text>
+    请选择参加人数：
+    </text>
+    <view class="section">
+        <picker 
+            bindchange="bindPickerChange" 
+            value="{{index}}" 
+            range="{{allowPlayers}}">
+            当前选择：{{allowPlayers[index]}}
+        </picker>
+    </view>
+    <button
+        type="primary" 
+        bindtap="bindCreateTap"
+        class="create-btn">
+    创建游戏
+    </button>
+</view>
